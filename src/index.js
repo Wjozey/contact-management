@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheets/Global.css';
-import Home from './components/Home';
+import ContactList from './components/ContactList';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <div className="container">
-      <Home />
+      <ContactList />
     </div>
   </React.StrictMode>,
   document.getElementById('root')

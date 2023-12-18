@@ -5,7 +5,7 @@ import base from '../api/base';
 import Contact from './Contact';
 import Addcontact from './Addcontact';
 
-function Home() {
+function ContactList() {
   const [contacts, setContacts] = useState([]);
 
   useEffect(() => {
@@ -45,4 +45,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ContactList;

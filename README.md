@@ -16,7 +16,7 @@ This project aims to create a simple yet functional web application for contact 
    - Fields for each contact include at least a name and email address.
 
 3. **User Interface**:
-   - A clean, responsive user interface using Tailwind CSS.
+   - A clean, responsive user interface using CSS.
    - Forms for adding new contacts and buttons for deleting them.
 
 4. **Error Handling**:
@@ -43,11 +43,11 @@ The application is structured into two main parts: the frontend and the backend.
 1. **Pages**:
    - `index.tsx`: The main page, displaying the list of contacts and including the form to add new contacts.
 2. **Components**:
-   - `ContactForm.tsx`: A form component for adding new contacts.
-   - `ContactList.tsx`: Lists all contacts fetched from Airtable.
-   - `ContactCard.tsx`: Represents a single contact in the list, with an option to delete.
+   - `Addcontact.js`: A form component for adding new contacts.
+   - `ContactList.js`: Lists all contacts fetched from Airtable.
+   - `Contact.js`: Represents a single contact in the list, with an option to delete.
 3. **Utilities**:
-   - `airtable.ts`: Handles API requests to the Airtable backend, including fetching contacts, adding a new contact, and deleting a contact.
+   - `base.js`: Handles API requests to the Airtable backend, including fetching contacts, adding a new contact, and deleting a contact.
 
 ## Backend Architecture (Airtable)
 
@@ -62,12 +62,8 @@ The application is structured into two main parts: the frontend and the backend.
 - The application is deployed on a cloud platform (e.g., Vercel, AWS Amplify), allowing it to be accessed over the internet.
 - Continuous deployment is set up to automatically deploy new versions of the app upon updates to the source code.
 
-## Security Considerations
-
-- API keys and sensitive data are stored in environment variables and not exposed in the frontend code.
-- Input validation is implemented to prevent malicious data entry.
 
 ## Future Enhancements
 
-- Implement user authentication for personalized contact management.
-- Enhance the UI/UX with additional features like contact search and pagination.
+[] Implement user authentication for personalized contact management.
+[] Enhance the UI/UX with additional features like contact search and pagination.
